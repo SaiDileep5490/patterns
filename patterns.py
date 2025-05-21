@@ -88,7 +88,44 @@ def fun8():
 fun8()
 print()
 print()
+
+def fun9():
+    n=123
+    rev =0
     
+    while n>0:
+        a = n%10
+        rev = rev*10+a
+        n = n//10
+    print(rev)
+fun9()
+
+print()
+print()
+ 
+def func10():
+    n =4
+    for i in range(0,n):
+        for j in range(n-i-1):
+            print(" ",end="")
+        for i in range(i+1):
+            print("*",end=" ")
+        print()
+func10()
+
+print()
+print()
+
+def func11():
+    n =4
+    for i in range(n,0,-1):
+        for j in range(n-i):
+            print(" ",end="")
+        for i in range(i):
+            print("*",end=" ")
+        print()
+func11()
+
  
     
             
